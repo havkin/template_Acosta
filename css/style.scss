@@ -1,0 +1,101 @@
+@import "reset";
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Trocchi|Vidaloka&display=swap');
+
+
+.container {
+    max-width: 1920px;
+    background-color: #fff;
+    border: 1px solid black; // TODO  delete
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+
+}
+
+// footer
+// -------------------------------------------------------------------
+
+.hr-line {
+    background-color: #e1e1e1;
+}
+
+.footer {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 39px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-cart {
+    width: 290px;
+    font-size: 18px;
+
+    &__title {
+        line-height: 1.2;
+        font-weight: 400;
+        color: #000000;
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+
+    &__text {
+        line-height: 24px;
+        color: #646464;
+    }
+
+    &__to-map {
+        line-height: 24px;
+        color: #2b78a6;
+        text-decoration: none;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 77px;
+
+    &__col {
+        width: 50%;
+    }
+
+    &__link {
+        line-height: 30px;
+        color: #2b78a6;
+        text-decoration: none;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+}
+
+.copyright {
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #646464;
+    padding: 90px 0;
+}
+
+.signature {
+    width: 124px;
+    height: 22px;
+    background-color: #000000;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
