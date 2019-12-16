@@ -70,6 +70,94 @@ table {
   padding-bottom: 13px;
 }
 
+.header {
+  padding-bottom: 156px;
+}
+
+.header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-nav__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 55px;
+  border-bottom: 5px solid #fff;
+  margin: 0 20px;
+}
+
+.header-nav__item_active {
+  border-bottom: 5px solid #2b78a6;
+}
+
+.header-nav__link {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-nav__link:hover {
+  font-weight: 700;
+  color: #2b78a6;
+}
+
+.header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+  margin-right: -470px;
+  margin-top: 100px;
+  position: relative;
+}
+
+.slogan {
+  width: 400px;
+  opacity: 0.9;
+  background-color: #000000;
+  padding-top: 51px;
+  padding-left: 49px;
+  padding-right: 90px;
+}
+
+.slogan__text {
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.slogan__text_color_78 {
+  color: #787878;
+}
+
+.underline {
+  width: 197px;
+  height: 3px;
+  background-color: #2b78a6;
+}
+
 .projects-first {
   position: relative;
   max-width: 1170px;
