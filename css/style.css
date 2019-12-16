@@ -70,7 +70,7 @@ table {
   padding-bottom: 13px;
 }
 
-.projects {
+.projects-first {
   position: relative;
   max-width: 1170px;
   margin: 0 auto;
@@ -108,10 +108,13 @@ table {
 .projects-photo {
   position: relative;
   z-index: 0;
+}
+
+.projects-photo_margin-top_minus110 {
   margin-top: -110px;
 }
 
-.projects-photo__caption {
+.projects-photo__caption_rotateZ_minus90 {
   -webkit-transform-origin: 0 100% 0;
           transform-origin: 0 100% 0;
   -webkit-transform: rotateZ(-90deg);
@@ -119,7 +122,19 @@ table {
   padding-left: 430px;
 }
 
-.year_area {
+.projects-photo__caption_rotateZ_90 {
+  width: 1345px;
+  text-align: end;
+  -webkit-transform-origin: 100% 0 0;
+          transform-origin: 100% 0 0;
+  -webkit-transform: rotateZ(-90deg);
+          transform: rotateZ(-90deg);
+  padding-top: 13px;
+  padding-bottom: 0;
+  padding-right: 30px;
+}
+
+.year-area {
   position: absolute;
   width: 90px;
   height: 123px;
@@ -140,8 +155,22 @@ table {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.year-area_left_min30 {
   left: -30px;
+}
+
+.year-area_top_347 {
   top: 347px;
+}
+
+.year-area_top_min60 {
+  top: -60px;
+}
+
+.year-area_left_30 {
+  left: 30px;
 }
 
 .projects-content {
@@ -184,6 +213,59 @@ table {
   width: 100px;
   height: 5px;
   background-color: #000000;
+}
+
+.project2 {
+  padding: 150px 0;
+}
+
+.projects-second-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 115px;
+  margin-left: -30px;
+}
+
+.projects-second-title__line {
+  margin-top: 15px;
+  width: 100px;
+  height: 5px;
+  background-color: #000000;
+}
+
+.projects-second-title__main {
+  font-family: 'Vidaloka', serif;
+  font-size: 30px;
+  line-height: 1.2;
+  width: 180px;
+  padding-left: 18px;
+}
+
+.project-small-photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 445px;
+  margin-top: -50px;
+  position: relative;
+  z-index: 10;
+}
+
+.project2-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 470px;
+}
+
+.project2-text {
+  font-size: 18px;
+  line-height: 36px;
+  width: 470px;
+  height: 270px;
+  padding-left: 104px;
+  margin-top: 66px;
 }
 
 .design {
