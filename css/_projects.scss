@@ -40,6 +40,10 @@
         margin-top: -110px;
     }
 
+    &_margin-right_minus60 {
+        margin-right: -60px;
+    }
+
     &__caption {
         font-size: 17px;
         font-weight: 400;
@@ -49,6 +53,10 @@
         &_rotateZ_minus90 {
             transform-origin: 0 100% 0;
             transform: rotateZ(-90deg);
+            padding-left: 50px;
+        }
+
+        &_padiing-left_430 {
             padding-left: 430px;
         }
 
@@ -75,7 +83,6 @@
         font-size: 18px;
         line-height: 36px;
         width: 470px;
-        height: 270px;
         padding-left: 104px;
     }
 }
