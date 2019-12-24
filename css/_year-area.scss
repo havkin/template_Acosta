@@ -1,0 +1,31 @@
+.year-area {
+    position: absolute;
+    width: 90px;
+    height: 123px;
+    background-color: #000000;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &_left_min30 {
+        left: -30px;
+    }
+
+    &_top_347 {
+        top: 347px;
+    }
+
+    &_top_min60 {
+        top: -60px;
+    }
+
+    &_left_30 {
+        left: 30px;
+    }
+}

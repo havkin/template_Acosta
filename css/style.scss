@@ -1,6 +1,9 @@
 @import "reset";
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Trocchi|Vidaloka&display=swap');
 
+@import "section-title";
+@import "projects";
+@import "year-area";
 
 .container {
     max-width: 1920px;
@@ -97,10 +100,10 @@
     background-color: #2b78a6;
 }
 
-
+   
 //projects
 //---------------------------------------------------------------------------
-
+ 
 .projects-first {
     position: relative;
     max-width: 1170px;
@@ -109,7 +112,7 @@
     flex-direction: column;
     align-items: flex-end;
 }
-
+ 
 .projects-image-container {
     margin-top: 40px;
     margin-right: 40px;
@@ -129,7 +132,7 @@
 
     &_margin-top_minus110 {
         margin-top: -110px;
-    }
+    } 
 
     &__caption {
         @extend %fig_caption;
@@ -152,37 +155,6 @@
     }
 }
 
-.year-area {
-    position: absolute;
-    width: 90px;
-    height: 123px;
-    background-color: #000000;
-    font-size: 16px;
-    line-height: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #ffffff;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    &_left_min30 {
-        left: -30px;
-    }
-
-    &_top_347 {
-        top: 347px;
-    }
-
-    &_top_min60 {
-        top: -60px;
-    }
-
-    &_left_30 {
-        left: 30px;
-    }
-}
 
 .projects-content {
     display: flex;
@@ -197,7 +169,7 @@
         line-height: 36px;
     }
 }
-
+  
 .projects-content-title {
     display: flex;
     align-items: center;
@@ -278,35 +250,35 @@
     padding-bottom: 165px;
 }
 
-.section-title {
-    font-family: 'Vidaloka', serif;
-    color: #000000;
-    margin: 0 auto;
+// .section-title {
+//     font-family: 'Vidaloka', serif;
+//     color: #000000;
+//     margin: 0 auto;
 
-    &__prefix {
-        font-size: 20px;
-        line-height: 1.2;
-        text-align: center;
-    }
+//     &__prefix {
+//         font-size: 20px;
+//         line-height: 1.2;
+//         text-align: center;
+//     }
 
-    &__main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+//     &__main {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//     }
 
-    &__title {
-        font-size: 50px;
-        line-height: 1.2;
-        padding: 0 16px;
-    }
+//     &__title {
+//         font-size: 50px;
+//         line-height: 1.2;
+//         padding: 0 16px;
+//     }
 
-    &__line {
-        width: 50px;
-        height: 5px;
-        background-color: #000000;
-    }
-}
+//     &__line {
+//         width: 50px;
+//         height: 5px;
+//         background-color: #000000;
+//     }
+// }
 
 .design-photo {
     position: absolute;
